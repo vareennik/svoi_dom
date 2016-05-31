@@ -819,6 +819,12 @@ li.social-icons ul li a {
     margin:0;
 }
 
+.widget-width-fixed p {
+    width: 533px;
+}
+
+
+
 .widget-title h3 .divider {
   background: url("images/hr.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: inline-block;
@@ -996,7 +1002,7 @@ li.social-icons ul li.cartbutton a {
   transform:scale(1);
 }
 .entry img {
-  zoom: 1;
+  zoom: 0.1;
   filter: alpha(opacity=100);
   opacity: 1;
   -webkit-transition: all 0.9s ease 0s;
@@ -1006,14 +1012,14 @@ li.social-icons ul li.cartbutton a {
   transition: all 0.9s ease 0s;
 }
 .entry:hover img {
-  zoom: 1;
+  zoom: 0.1;
   filter: alpha(opacity=50);
   opacity: 0.5;
-  -webkit-transform: rotate(-1deg) scale(1.4);
-  -moz-transform: rotate(-1deg) scale(1.4);
-  -ms-transform: rotate(-1deg) scale(1.4);
-  -o-transform: rotate(-1deg) scale(1.4);
-  transform: rotate(-1deg) scale(1.4);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .magnifier .buttons i {
   color:#fff;
@@ -1088,11 +1094,11 @@ li.social-icons ul li.cartbutton a {
   display: block;
   height: 100%;
   margin: auto;
-  padding: 80px 0;
+  padding: 30px 0;
   position: relative;
   width: 100%;
   z-index: 999;
-  background: url(demos/parallax_01.jpg) no-repeat center center; 
+  background-color: aquamarine; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1104,6 +1110,11 @@ li.social-icons ul li.cartbutton a {
   margin:0;
   vertical-align: sub;
   text-align: left;
+}
+
+.landing-paysage {
+    height: 100px;
+    background: url(images/about-paysage-3-01.jpg) no-repeat center center; 
 }
 
 #colorful-tab .nav-tabs > li > a {
@@ -1463,10 +1474,10 @@ figure.effect-milo:hover .image {
 
 .section-w {
   background:#fff;
-  padding:10px 0;
+  padding:20px 0;
   position:relative;
   display:block;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .section-g {
   background:#fafafa;
@@ -1929,4 +1940,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
   #colorful-tab .nav-tabs h3 {
     display: none
   }
+}
+
+.index-gallery {
+    float: left;
+    width: 350px;
 }
