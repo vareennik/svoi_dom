@@ -179,12 +179,12 @@ a:hover,a:focus {
 }
 
 .header.affix #jtheader {
-  padding:14px 0px;
+  padding:17px 0px;
 }
 
 #jtheader{
   background: transparent !important;
-  padding: 25px 0;
+  padding: 17px 0;
   border:0;
 }
 .navbar-brand {
@@ -245,7 +245,7 @@ li.social-icons ul li:hover,
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {
-  background-color: #82a969;
+  background: #a17e4a url(temp/tes-01-01.jpg) repeat-x;
   color: #fff !important;
 }
 
@@ -260,7 +260,7 @@ li.social-icons ul li a {
 }
 
 #topbar p {
-  margin:13px 0;
+  margin:9px 0;
   font-family: 'PT Sans', sans-serif;
   padding:0 0 0 25px;
   font-weight: bold;
@@ -796,14 +796,27 @@ li.social-icons ul li a {
 
 .widget-title {
   display: block;
-  padding:20px 0;
+  padding:0 15px;
+  width: 255px;
+  background: #a17e4a url(temp/tes-01-01.jpg) repeat-x; 
+  border-radius: 5px;  
 }
 .widget-title h3 {
-  color: #212121;
-  font-size: 24px;
+    
+  color: #ffffff;
+  font-size: 20px;
   position: relative;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.texture-about {
+  width: 400px;
+  padding: 15px 10px;
+}
+
+.texture-about h3 {
+    margin:0;
 }
 
 .widget-title h3 .divider {
@@ -1240,13 +1253,13 @@ li.social-icons ul li.cartbutton a {
 .breadcrumb > .active,
 .breadcrumb,
 .breadcrumb a {
-  color:#999;
-  font-weight: 300;
+  color:#6d5c36;
+  font-weight: 500;
 }
 .breadcrumb > li + li:before{
   padding:0 6px 0 6px;
   content: "\f101" !important;
-  color:#90cd32;
+  color:#82A969;
   font-family: 'FontAwesome' !important;
 }
 
@@ -1276,7 +1289,7 @@ li.social-icons ul li.cartbutton a {
 }
 
 .dmtop {
-  background-color: #90cd32 !important;
+  background-color: #82A969  !important;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
 .client.active  {
@@ -1285,7 +1298,7 @@ li.social-icons ul li.cartbutton a {
 
 .colorful {
   background: #82A969 !important;
-  padding:60px 0;
+  padding:40px 0;
 }
 
 .rating i {
@@ -1450,13 +1463,14 @@ figure.effect-milo:hover .image {
 
 .section-w {
   background:#fff;
-  padding:50px 0;
+  padding:10px 0;
   position:relative;
   display:block;
+  padding-bottom: 20px;
 }
 .section-g {
   background:#fafafa;
-  padding:80px 0;
+  padding:50px 0;
   position:relative;
   display:block;
 }
@@ -1467,9 +1481,10 @@ figure.effect-milo:hover .image {
 
 .page-white {
   display: block;
-  padding: 60px 0 25px;
+  padding: 30px 0 25px;
   position: relative;
   z-index: 10;
+  padding-bottom: 0;
 }
 
 .section-title {
@@ -1503,21 +1518,20 @@ figure.effect-milo:hover .image {
     font-size: 16px;
 }
 .section-wrapper {
-  margin:60px 0 0;
+  margin:40px 0 0;
 }
 
 .copyrights {
-  background:#3a3a3a;
+  background: #a17e4a url(temp/tes-01-01.jpg) repeat-x;
   display: block;
   overflow: hidden;
-  padding: 15px 0;
-  position: relative;
+  position: relative;  
 }
 
 .copyrights h4 {
-  margin:20px 0;
-  color:#e8e8e8;
-  font-size:18px;
+  margin:15px 0;
+  color:#ffffff;
+  font-size:17px;
 }
 
 .footer {
