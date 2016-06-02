@@ -72,7 +72,7 @@ h6 {
 }
 
 a { 
-  color:#90cd32;
+  color: #82A969;
   text-decoration: none; 
   -webkit-transition: background-color .2s linear, color .2s linear;
   -moz-transition: background-color .2s linear, color .2s linear;
@@ -1498,14 +1498,14 @@ figure.effect-milo:hover .image {
 
 .page-white {
   display: block;
-  padding: 30px 0 25px;
+  padding: 20px 0;
   position: relative;
   z-index: 10;
   padding-bottom: 0;
 }
 
 .section-title {
-  margin-bottom:30px;
+  margin-bottom:20px;
   width:100%;
   display:block;
   text-align:center;
@@ -1517,7 +1517,7 @@ figure.effect-milo:hover .image {
 }
 
 .section-title h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1.4;
   margin-bottom: 0 !important;
@@ -1723,8 +1723,8 @@ div.bhoechie-tab-menu div.list-group>a:last-child{
 div.bhoechie-tab-menu div.list-group>a.active,
 div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
 div.bhoechie-tab-menu div.list-group>a.active .fa{
-  background-color: #90cd32;
-  background-image: #90cd32;
+  background-color: #82A969 ;
+  background-image: #82A969 ;
   color: #ffffff;
 }
 
@@ -1928,7 +1928,7 @@ article.contacts {
 
 @media (max-width:1280px){
   .navbar-nav > li > a {
-    padding:9px 30px;
+    padding:9px 25px;
   }
 }
 
@@ -2033,4 +2033,81 @@ h3.service-landscape::before {
     width: 100%;
     padding: 0;
     background-color: #82A969;
+}
+
+.button_show_all {
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.button_show_all a {
+    padding: 10px 21px;
+    background-color: #82A969;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: none;
+    
+}
+
+.button_show_all a:hover {
+    background-color: #bdc7b6;
+}
+
+.index-section-w {
+    padding-bottom: 20px;
+    
+}
+
+.index-message-materials {
+    color: #ffffff;
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+    
+    font-size: 22px;
+}
+
+.span-materials {
+    color: #ffffff;
+}
+
+.span-materials:hover {
+    color: #4c6b37;
+    cursor: pointer;
+}
+
+.index-message-landing {
+    padding: 15px 0;
+}
+
+.about-company-title h3 {
+    font-size: 30px;
+}
+
+.about-company-title .section-title {
+    margin-bottom: 0px;
+}
+
+.about-company-title {
+    padding: 20px 0;
+}
+
+.projects-nav {
+    margin-bottom: 50px;
+}
+
+.using-materials {
+    font-family: "PT Sans",sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    
+    display: block;
+    margin-bottom: 20px;
+}
+
+.materials-intro-p p {
+    text-align: center;
 }
