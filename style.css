@@ -25,7 +25,7 @@ body{
   font-family:'Open Sans','Arial',sans-serif;
   font-size:14px;
   position:relative;
-  color:#8e8e8e;
+  color:#5e5b5b;
   font-weight: 300;
   line-height:28px;
   background-color:#ddd;
@@ -191,6 +191,7 @@ a:hover,a:focus {
   height: auto;
   margin-top:-3px;
   padding: 0;
+    margin-left: 20px;
 }
 .navbar {
   margin:0;
@@ -333,7 +334,7 @@ li.social-icons ul li a {
 
 .tp-caption.slider-title span,
 .slider-title span {
-    color: #90cd32;
+    color: #ffffff;
     border:3px dashed #fff;
     padding:2px 12px;
     margin-right: 10px;
@@ -1184,8 +1185,8 @@ h3.about-landing-message {
 .control-top .owl-controls .owl-nav [class*="owl-"]:hover,
 #accordion-first .accordion-heading .accordion-toggle > em:hover,
 #accordion-first .accordion-heading .accordion-toggle > em.fa-arrow-right  {
-  background: #90cd32 !important;
-  border-color: #90cd32 !important;
+  background: #82A969 !important;
+  border-color: #82A969 !important;
   color:#fff;
 }
 
@@ -1955,10 +1956,12 @@ article.contacts {
   }
 
   .navbar-brand {
-    padding: 0
+    padding: 0;
+    margin-left: 20px;
   }
+    
   #colorful-tab .nav-tabs h3 {
-    display: none
+    display: none;
   }
 }
 
@@ -2037,7 +2040,7 @@ h3.service-landscape::before {
 
 .button_show_all {
     float: left;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15px;
 }
 
@@ -2110,4 +2113,25 @@ h3.service-landscape::before {
 
 .materials-intro-p p {
     text-align: center;
+}
+
+.footer ul.footer-service-ul {
+    margin-top: -10px;
+}
+
+.footer-service {
+    margin-bottom: 7px;
+}
+
+.footer .footer-service a {
+    color: #8e8e8e;
+}
+
+.why-us-widget-about {
+    margin-top: 10px;
+}
+
+
+.show_all_about {
+    margin-left: 70px;
 }
