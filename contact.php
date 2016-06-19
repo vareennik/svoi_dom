@@ -11,7 +11,7 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
 $email    = $_POST['email'];
-$subject  = $_POST['subject'];
+$subject  = "Vam pismo!";
 $comments = $_POST['comments'];
 
 
