@@ -16,13 +16,13 @@ $comments = $_POST['comments'];
 
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div class="error_message">Введите ваше имя</div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div class="error_message">Введите ваш e-mail</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Вы ввели некорректный e-mail</div>';
 	exit();
 }
 
@@ -30,7 +30,7 @@ if(trim($subject) == '') {
 	echo '<div class="error_message">Attention! Please enter a subject.</div>';
 	exit();
 } else if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	echo '<div class="error_message">Введите ваш вопрос</div>';
 	exit();
 } 
 
