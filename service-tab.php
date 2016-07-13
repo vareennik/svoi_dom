@@ -43,19 +43,7 @@
 <body>
 
     <div id="wrapper">
-        <section id="topbar" class="clearfix">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <p><i class="fa fa-phone"></i> 8 (812) 602-20-21</p>
-                    </div>
-
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <p><i class="fa fa-envelope-o"></i> svoidom06@mail.ru</p>       
-                    </div>
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </section><!-- end section -->
+        <?php include("header.php"); ?>
 
         <header class="header clearfix">
             <div class="container-fluid">
@@ -67,16 +55,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="images/logo_var4-01.png" alt=""></a>
+                        <a class="navbar-brand" href="index.php"><img src="images/logo_var4-01.png" alt=""></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             
-                            <li><a href="about.html">О компании</a></li>
-                            <li class="active"><a href="service-tab.html">Наши услуги</a></li>
-                            <li ><a href="projects.html">Наши проекты</a></li>
-                            <li><a href="shop.html">Технологии</a></li>
-                            <li><a href="contant.html">Контакты</a></li>
+                            <li><a href="about.php">О компании</a></li>
+                            <li class="active"><a href="service-tab.php">Наши услуги</a></li>
+                            <li ><a href="projects.php">Наши проекты</a></li>
+                            <li><a href="shop.php">Технологии</a></li>
+                            <li><a href="contant.php">Контакты</a></li>
                             
                           </ul>
                     </div><!--/.nav-collapse -->
@@ -124,7 +112,7 @@
                                    
                                 </div><!-- end row -->
                                 <div class="button_show_all show_all_about">
-                                        <a href="projects.html">
+                                        <a href="projects.php">
                                         <span class="butto">
                                         Наши проекты
                                         </span>
@@ -155,7 +143,7 @@
                                   
                                 </div><!-- end row -->
                                 <div class="button_show_all show_all_about">
-                                        <a href="projects.html">
+                                        <a href="projects.php">
                                         <span class="butto">
                                         Наши проекты
                                         </span>
@@ -187,7 +175,7 @@
                                     </div>
                                 </div><!-- end row -->
                                 <div class="button_show_all show_all_about">
-                                        <a href="projects.html">
+                                        <a href="projects.php">
                                         <span class="butto">
                                         Наши проекты
                                         </span>
@@ -202,48 +190,7 @@
 
         <hr>
 
-        <footer class="footer clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <div class="widget">
-                            <div class="widget-title">
-                                <h3> Наша компания</h3>
-                            </div><!-- end widget title -->
-                            <div class="about-widget">
-                                <a href="#"><img src="images/logo_var4-01.png" alt=""></a>
-                            </div><!-- end about-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-4 -->
-
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <div class="widget">
-                            <div class="widget-title">
-                                <h3> Наши услуги</h3>
-                            </div><!-- end widget title -->
-                            <div class="accordion-widget">
-                                <ul class="footer-service-ul">
-                                    <li class="footer-service"><a href="service-tab.html">Проектирование</a></li>
-                                    <li class="footer-service"><a href="service-tab.html">Строительство</a></li>
-                                    <li class="footer-service"><a href="service-tab.html">Благоустройство</a></li>
-                                </ul>
-                            </div><!-- end accordion-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-4 -->
-
-                    <div class="col-md-4 col-xs-12">
-                        <div class="widget-title">
-                            <h3> Контакты</h3>
-                        </div><!-- end widget -->
-                        <div class="contact_details">
-                            <p><i class="fa fa-home"></i> 197367, Санкт - Петербург, ул. Профессора Попова, 23, Бизнес-центр «Гайот», офис 211. </p>
-                            <span>Тел.: (812) 602-20-21</span><br>
-                            <span>Email: svoidom06@mail.ru </span><br>
-                        </div><!-- end services -->
-                    </div><!-- end col -->        
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </footer><!-- end footer -->
+        <?php include("footer.php"); ?>
 
         <section class="copyrights text-center">
             <div class="container">
