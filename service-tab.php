@@ -1,5 +1,5 @@
 <?php
-    $active = "";
+    $active = "project";
     if(isset($_GET['active'])) {
         $active = $_GET['active'];
     }

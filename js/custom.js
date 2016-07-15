@@ -91,7 +91,7 @@ $(document).ready(function() {
 // DM Lightbox
     jQuery('a[data-gal]').each(function() {
         jQuery(this).attr('rel', jQuery(this).data('gal')); });     
-    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
+    //jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
 
 })(jQuery);
 
