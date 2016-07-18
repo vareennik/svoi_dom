@@ -187,15 +187,16 @@
                             </div>
                         </div><!-- end item -->
                         
-                        <div class="button_show_all">
+                       
+                            
+                    </div><!-- end masonry_wrapper -->  
+                     <div class="button_show_all button_show_index">
                             <a href="projects.php">
                                 <span class="butto">
                                     Все проекты
                                 </span>
                             </a>
                         </div>
-                            
-                    </div><!-- end masonry_wrapper -->        
                 </div><!-- end row -->
             </div><!-- end container -->
         </section><!-- end section -->

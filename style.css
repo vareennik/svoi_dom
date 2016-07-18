@@ -2215,13 +2215,8 @@ h3.service-landscape::before {
   transition:all .3s ease;
   -webkit-transform:scale(1.6) translateY(-50px);
   -moz-transform:scale(1.6) translateY(-50px);
-  -ms-transform:scale(1.6 translateY(-50px);
+  -ms-transform:scale(1.6) translateY(-50px);
   -o-transform:scale(1.6) translateY(-50px);
   transform:scale(1.6) translateY(-50px);
-  
-}
-
-.material-item img {
-    width: 100%;
 }
 
