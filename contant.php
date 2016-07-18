@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Builder - Constrcution Website Template</title>
+    <title>Свой дом — строительство загородных домов в Санкт-Петербурге и Ленобласти | Контакты</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Свой дом</title>
+    <title>Свой дом  — строительство загородных домов в Санкт-Петербурге и Ленобласти | Проектирование и строительство качественных деревянных домов | Деревянные дома из клееного бруса и бревна</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -221,7 +221,7 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-<!--    <script src="js/isotope.js"></script>-->
+<script src="js/isotope.js"></script>
     <script src="js/masonry.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl-scripts.js"></script>

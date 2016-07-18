@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Builder - Constrcution Website Template</title>
+    <title>Свой дом  — строительство загородных домов в Санкт-Петербурге и Ленобласти</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -74,15 +74,14 @@
                 <div class="row about-banner">
                     <div class="col-md-12 col-sm-12">
                         <div id="about-slider">
-                            <div class="slide">
-                                <img src="images/slider_dom1.jpg" alt="" class="img-responsive">
-                            </div><!-- end slide -->
+                            
                             <div class="slide">
                                 <img src="images/7_slider.jpg" alt="" class="img-responsive">
                             </div><!-- end slide -->
                             <div class="slide">
-                                <img src="images/6_slider.jpg" alt="" class="img-responsive">
+                                <img src="images/slider_dom1.jpg" alt="" class="img-responsive">
                             </div><!-- end slide -->
+                            
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->

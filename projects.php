@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Builder - Constrcution Website Template</title>
+    <title>Свой дом  — строительство загородных домов в Санкт-Петербурге и Ленобласти </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -138,7 +138,7 @@
                                 
                             </div>
                             <div class="desc">
-                            <h3>НУЖНО НАЗВАНИЕ !!!</h3>
+                            <h3>Частный дом в поселке Солнечное</h3>
                             
                                 
                             </div>
@@ -254,7 +254,7 @@
                                 
                             </div>
                             <div class="desc">
-                            <h3>Внутренняя отделка резиденции в пос Лосево</h3>
+                            <h3>Внутренняя отделка резиденции в поселке Лосево</h3>
                                 
                             </div>
                         </div><!-- end item -->

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Builder - Constrcution Website Template</title>
+    <title>Свой дом  — строительство загородных домов в Санкт-Петербурге и Ленобласти | Материалы и технологии</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -75,7 +75,7 @@
         <div class="materials-menu clearfix row-materials">
                 <article>
                     <figure class="material-item">
-                        <img src="images/glued_beam.jpg" alt="Клееный брус" width="370" height="295">
+                        <img src="images/glued_beam.jpg" alt="Клееный брус" >
                     </figure>
                     <h3>Клееный брус</h3>
                     <p>
@@ -84,7 +84,7 @@
                 </article>
                 <article>
                     <figure class="material-item">
-                        <img src="images/aerocrete.jpg" alt="Газобетон" width="370" height="295">
+                        <img src="images/aerocrete.jpg" alt="Газобетон" >
                     </figure>
                     <h3>Газобетон</h3>
                     <p>
@@ -94,7 +94,7 @@
                 </article>
                 <article>
                     <figure class="material-item">
-                        <img src="images/brick.jpg" alt="Кирпич" width="370" height="295">
+                        <img src="images/brick.jpg" alt="Кирпич" >
                     </figure>
                     <h3>Кирпич</h3>
                     <p>
@@ -148,7 +148,7 @@
         <div class="materials-menu clearfix row-materials row-tile">
             <article>
                     <figure class="material-item">
-                        <img src="images/metall_tile.jpg" alt="Металлочерепица" width="370" height="295">
+                        <img src="images/metall_tile.jpg" alt="Металлочерепица" >
                     </figure>
                     <h3>Металлочерепица</h3>
                     <p>
@@ -157,7 +157,7 @@
                 </article>
                 <article>
                     <figure class="material-item">
-                        <img src="images/soft_roof.jpg" alt="Мягкая кровля" width="370" height="295">
+                        <img src="images/soft_roof.jpg" alt="Мягкая кровля" >
                     </figure>
                     <h3>Мягкая кровля</h3>
                     <p>
