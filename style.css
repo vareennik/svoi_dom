@@ -2150,7 +2150,7 @@ h3.service-landscape::before {
 }
 
 .materials-menu article {
-    max-width: 310px;
+    max-width: 320px;
     background-color: #ffffff;
     min-height: 200px;
     text-align: center;
@@ -2224,3 +2224,4 @@ h3.service-landscape::before {
 .material-item img {
     width: 100%;
 }
+

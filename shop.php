@@ -73,7 +73,7 @@
         <div class="materials-container">
 
         <div class="materials-menu clearfix row-materials">
-                <article>
+                <article class="material-margin">
                     <figure class="material-item">
                         <img src="images/glued_beam.jpg" alt="Клееный брус" >
                     </figure>
@@ -82,8 +82,8 @@
                             Это высокотехнологичный материал, значительно расширяющий архитектурные возможности. Современные технологии склеивания и сращивания древесины позволяют производить клееный брус практически неограниченной длины с большой несущей способностью. ООО «Свой дом» следит за всеми изменениями на рынке клееного бруса. Для нас очень важно качество всех элементов клееного бруса и других конструкций дома. Поэтому мы рекомендуем своим клиентам только проверенные компании с высокотехнологичным оборудуованием. 
                     </p>     
                 </article>
-                <article>
-                    <figure class="material-item">
+                <article class="material-margin">
+                    <figure class="material-item ">
                         <img src="images/aerocrete.jpg" alt="Газобетон" >
                     </figure>
                     <h3>Газобетон</h3>
