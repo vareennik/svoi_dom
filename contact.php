@@ -1,5 +1,6 @@
+﻿
 <?php
-
+include("smtp.php");
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
@@ -44,7 +45,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "svoidom06@mail.ru";
+$address = "varvara.frolova@gmail.com";
 
 
 // Configuration option.
@@ -71,14 +72,15 @@ $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
-if(mail($address, $e_subject, $msg, $headers)) {
+if(MailSmtp($address, $e_subject, $msg, $headers)) {
 
 	// Email has sent successfully, echo a success page.
 
 	echo "<fieldset>";
+	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h1>Сообщение отправлено!</h1>";
-	echo "<p><strong>$name</strong>, ваше сообщение успешно отправлено.</p>";
+	echo "<p>Ваше сообщение успешно отправлено.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     $active = "project";
     if(isset($_GET['active'])) {
         $active = $_GET['active'];
@@ -11,7 +11,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -41,7 +41,7 @@
 
 </head>
 <body>
-
+<?php include_once("analyticstracking.php") ?>
     <div id="wrapper">
         <?php include("header.php"); ?>
 
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 bhoechie-tab">
                             <!-- flight section -->
-                            <div class="bhoechie-tab-content active">
+                            <div class="bhoechie-tab-content <?php echo $active == 'project' ? 'active' : '' ?>">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h4>Компания ООО «Свой Дом» сотрудничает с архитекртурными студиями и частными архитекторами Санкт-Петербурга. Это партнерство обеспечивает контроль и анализ всех проектов нами, а так же услуги авторского надзора со стороны проектировщиков. </h4>
@@ -113,14 +113,14 @@
                                 </div><!-- end row -->
                                 <div class="button_show_all show_all_about">
                                         <a href="projects.php">
-                                        <span class="butto">
-                                        Наши проекты
-                                        </span>
+											<span class="butto">
+												Наши проекты
+											</span>
                                         </a>
                                 </div>
                             </div>
 
-                            <div class="bhoechie-tab-content">
+                            <div class="bhoechie-tab-content <?php echo $active == 'construct' ? 'active' : '' ?>">
                                 
                                 <div class="row">
                                     <div class="col-md-12">
@@ -151,7 +151,7 @@
                                 </div>
                             </div>
 
-                            <div class="bhoechie-tab-content">
+                            <div class="bhoechie-tab-content <?php echo $active == 'landscape' ? 'active' : '' ?>">
                                 
                                 <div class="row">
                                     <div class="col-md-12">

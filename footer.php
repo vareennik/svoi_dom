@@ -1,4 +1,4 @@
-<footer class="footer clearfix">
+﻿<footer class="footer clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-xs-12">

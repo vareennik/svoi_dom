@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,7 +33,7 @@
 
 </head>
 <body>
-
+<?php include_once("analyticstracking.php") ?>
     <div id="wrapper">
         <?php include("header.php"); ?>
 
@@ -134,7 +134,7 @@
                         
                         <div class="item item-h2 cat2 ">
                             <div class="entry">
-                                <div class="item-project"><img src="images/13.jpg" alt=""></div>
+                                <div class="item-project"><img src="images/13.JPG" alt=""></div>
                                 
                             </div>
                             <div class="desc">
@@ -191,7 +191,7 @@
                         
                         <div class="item item-h2 cat2 ">
                             <div class="entry">
-                                <div class="item-project"><img src="images/7.jpg" alt=""></div>
+                                <div class="item-project"><img src="images/7.JPG" alt=""></div>
                                 
                             </div>
                             <div class="desc">
